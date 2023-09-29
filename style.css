@@ -1,0 +1,146 @@
+header{
+    position: sticky !important;
+    top: 0px;
+    z-index: 2;
+    background-color: white;
+}
+.vertical-line{
+    height : 70px;
+    border-left : 1px solid rgb(214, 207, 207); 
+}
+.delivery-section{
+    margin-top: 15px;
+}
+.delivery-section>h5{
+    font-weight: 700;
+}
+.delivery-section>p{
+    font-size: 15px;
+}
+.search-bar{
+    background-color: rgb(243, 241, 241);
+    padding-inline: 10px;
+    border-radius: 20px;
+    border: 10px solid rgb(243, 241, 241);;
+}
+.search-bar>input{
+    border: none;
+    width: 40vw;
+    height: 30px;
+    background-color: transparent;
+}
+.my-cart-btn{
+    font-weight: 600 !important;
+    border-radius: 10px;
+}
+.categories-flex{
+    margin: auto;
+    width : 95vw;
+}
+.list{
+    white-space: nowrap;
+    overflow-x: scroll ;
+}
+.list::-webkit-scrollbar{
+    display: none;
+}
+.del-time{
+    width: fit-content;
+    padding-inline: 10px;
+}
+.item-card{
+    display: inline-block !important;
+    width: 220px;
+    box-sizing: border-box;
+    border-radius: 15px !important;
+    white-space: wrap;
+    margin-inline: 10px;
+}
+.item-card>img{
+    display: inline-block;
+    margin: auto;
+}
+.item-weight{
+    color: rgb(205, 200, 200);
+}
+.item-price{
+    font-weight: 600;
+}
+.footer-row2{
+    font-size: 13px;
+    text-align: justify;
+    color: #666666;
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-inline: 10px;
+}
+.footer-row2-col1{
+    flex:1;
+    padding-inline:10px;
+   
+}
+.footer-row2-col2{
+    flex:1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.footer-row2-col3{
+    flex: 1;
+    display: flex;
+    justify-content: space-between;
+}
+.icons{
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    border-radius: 50%;
+}
+.icons:hover{
+    color: black;
+    background-color: #f8cb45;
+    box-shadow: 3px 3px 15px black;
+}
+.footer-row-3{
+    font-size: 15px;
+    text-align: justify;
+    color: #666666;
+}
+.footer-row2>div{
+    padding: 10px;
+}
+footer{
+    width: 95vw;
+    margin: auto;
+}
+#my-footer-row-1{
+    display: flex;
+    margin-top: 30px;
+}
+#footer-table-1{
+    flex: 2;
+    width: 100%;
+}
+#footer-table-2{
+    flex: 3;
+}
+table{
+    width: 100%;
+}
+td{
+    color: #666666;
+    line-height: 30px;
+}
+td:hover{
+    line-height: 30px;
+    text-decoration: underline;
+    cursor: pointer;
+    color: red;
+}
